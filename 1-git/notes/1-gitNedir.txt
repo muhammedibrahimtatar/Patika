@@ -1,0 +1,59 @@
+GIT - Versiyon kontrol sistemi | Kaynak Kod Yönetim sistemi (SCM - Source Code Management)
+
+-Takımların aynı projede çalışmasını sağlar
+-Kimin değiştirdiği düzenlediği gibi bilgiler tutulur
+-Herhangi bir dosyaya veya versiyone her zaman geri dönüş yapılabilir.
+-Yerel bilgisayarlarda ve uzak bilgisayarda çalışır
+
+
+--- En çok kullanılan komutlar
+git init : kurmak
+git add : eklemek
+git commit : snapshot almak
+git status : durum görüntülemek
+git push
+git pull
+git clone
+git checkout
+git rm
+
+*git init
+Proje dosyasına sağ tıklayıp git bash here alanına tıklayıp git ekranın açıyoruz.
+Bu projede ilk defa giti başlatmak istiyorsak git init komutunu kullanıyoruz ve ilk defa initilatize yapıyoruz.
+Bu komutu ilk defa yüklenmesini istediğimiz projelerde kullanıyoruz.
+
+*git status
+Proje içindeki dosyaları ve bu dosyalarla ilgili yapılan işlem ve takip edilip edilmediğini kontrol eder.Durumlarını gösterir.
+
+*git add dosya_ismi
+Bu komutla belirtilen dosyayı takip etmeye başlar. 
+
+*git add . 
+Tüm dosyaları tek seferde ekle
+
+**git rm --cached dosya_ismi
+Bu komutla add ile eklediğimiz dosyanın takipten çıkarılmasını sağlıyoruz
+
+*git commit
+Takibe aldığımız dosyaların snapshotını almaya yarar.
+
+*git commit -m 'commitAçıklaması'
+Bu komutla commit edilen dosyanın açıklamasını da beraber yazarak commit işlemini yapıyoruz. 
+
+*git config --global user.email "mail@mail.com"
+*git config --global user.name "Your Name"
+Yukarıda belirtilen komutları 1 defa giriyoruz ve bu kullanıcı bilgisi kaydediliyor. 
+Githuba yüklenecek projeleri ve işlemleri bu hesapla yapıyor
+
+*git diff
+Son alınan snapshot(commit) işleminden sonraki yapılan değişiklikleri gösterir.
+
+*git remote add 
+
+
+--- .gitignore dosyası nedir ?
+Projede git'e eklemek istemediğimiz dosyaları veya bir defa yükledikten sonra tekrar git ile yenileme yapmak istemediğimiz dosyalar olabilir.Görseller, videolar, logolar gibi
+bu dosyaların isimlerini .gitignore dosyasına ekleyerek bunların versiyon kontrol sisteminde takip edilmesini engelleyebiliriz.
+Yazılan programa göre internetten örnek arama yaparak .gitignore örnek dosyaları yapabiliriz.
+
+--- Projedeki birden fazla dosyanın versiyon kontrol sistemine eklenebilmesi
