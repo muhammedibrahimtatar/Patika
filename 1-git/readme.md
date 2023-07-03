@@ -20,3 +20,4 @@
 *** hr
 
 commmonmark.org/help/ adresinden detaylı kullanım görebiliriz.
+Typora bir markdown editörüdür.
