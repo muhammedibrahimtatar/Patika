@@ -1,0 +1,6 @@
+SQL (Structured Query Language) Nedir?
+Veri tabanı ile iletişim kurmamızı sağlayan declarative(bildirimsel) programlama dilidir.
+
+Dördüncü Nesil Programlama dilidir
+SQL daha az kod yazarak ve daha çok belirli şablonlar kullanan bir programlama dili olarak dördüncü nesil bir programlama dilidir.
+Yapılması istenen işlemin her basamağının ayrıca kodlamasına gerek duyulmaz.
